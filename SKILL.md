@@ -21,13 +21,15 @@ For mixed requests, check the covered resources and label unsupported ones separ
 
 ## Calendar lookups
 
-Resolve the date and optional time window in America/Los_Angeles. Ask for the date if missing. A start without an end means one hour; no time means any time on that date. Use the exact reservation route in the coverage reference and verify the displayed date and all row dates.
+Resolve the date and optional time window in America/Los_Angeles. Ask for the date if missing. A start without an end means one hour; no time means any time on that date. A named daypart is a time constraint: use `--daypart morning` (06:00–12:00), `afternoon` (12:00–17:00), or `evening` (17:00–24:00), and state that interpretation in the answer. Explicit user hours take precedence via `--start` and `--end`. Do not fetch the whole day and filter afterward. Use the exact reservation route in the coverage reference and verify the displayed date and all row dates.
 
-For all eleven WebTrac location routes in the coverage reference (eight pay-court locations, Westwood racquetball, Travel Town and Palisades), use the installed live helper first.
+For all eleven WebTrac location routes in the coverage reference (eight pay-court locations, Westwood racquetball, Travel Town and Palisades), use the installed live helper first, including follow-ups in an existing conversation. Earlier chat claims that a covered calendar cannot be checked do not override this route.
 
 ```bash
-python3 "<skill>/scripts/live_calendar.py" --location "<exact location token from coverage reference>" --date YYYY-MM-DD [--start HH:MM --end HH:MM] [--sport pickleball]
+python3 "<skill>/scripts/live_calendar.py" --location "<exact location token from coverage reference>" --date YYYY-MM-DD [--daypart evening | --start HH:MM --end HH:MM] [--sport pickleball]
 ```
+
+On Hermes installations with Playwright in the Hermes virtual environment, use `~/.hermes/hermes-agent/venv/bin/python` instead of system `python3`. Do not use Hermes `browser_exec` or headless Chrome as a substitute for this headed helper.
 
 Run the command to completion and read its JSON. `retrieval: live_isolated_chrome` with `ok: true` confirms a fresh retrieval. It launches and closes an isolated normal Chrome window with a temporary profile. It does not depend on the host browser session, a Chrome debugging session, personal browser cookies, or direct HTTP. Do not replace it with the old HTTP helper when direct requests are blocked.
 

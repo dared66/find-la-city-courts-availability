@@ -70,6 +70,8 @@ class Tree(HTMLParser):
 
 
 def minutes(value):
+    if value.strip() == '24:00':
+        return 1440
     for fmt in ('%H:%M', '%I:%M %p'):
         try:
             t = datetime.strptime(value.strip().upper(), fmt)

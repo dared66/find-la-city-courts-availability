@@ -15,17 +15,30 @@ LOCATIONS = ('BalboaPayTennis', 'Cheviot Hills Pay Tennis', 'Poinsettia Pay Tenn
              'Travel Town', 'Palisades RC')
 
 
-def retrieve(location, day, start=None, end=None):
-    from playwright.sync_api import sync_playwright
-    date.fromisoformat(day)
-    if location not in LOCATIONS:
-        raise ValueError('Location outside the supported calendar list')
+DAYPARTS = {'morning': ('06:00', '12:00'), 'afternoon': ('12:00', '17:00'),
+            'evening': ('17:00', '24:00')}
+
+
+def time_window(start=None, end=None, daypart=None):
+    if daypart:
+        if start or end:
+            raise ValueError('Use either daypart or explicit start/end')
+        start, end = DAYPARTS[daypart]
     if end and not start:
         raise ValueError('End requires start')
     first = minutes(start) if start else 0
     last = minutes(end) if end else first + 60 if start else 1440
-    if not first < last <= 1440:
+    if not 0 <= first < last <= 1440:
         raise ValueError('Invalid same-day interval')
+    return start, end or (clock(last) if start else None), range(first, last, 120)
+
+
+def retrieve(location, day, start=None, end=None, daypart=None):
+    from playwright.sync_api import sync_playwright
+    date.fromisoformat(day)
+    if location not in LOCATIONS:
+        raise ValueError('Location outside the supported calendar list')
+    start, end, query_times = time_window(start, end, daypart)
     extract = (Path(__file__).with_name('extract_calendar.js')).read_text()
     snapshots = []
     with sync_playwright() as p:
@@ -35,7 +48,7 @@ def retrieve(location, day, start=None, end=None):
         try:
             page = browser.new_page()
             page.set_default_timeout(30000)
-            for begin in range(first, last, 120):
+            for begin in query_times:
                 url = search_url(location, day, clock(begin))
                 response = page.goto(url, wait_until='domcontentloaded')
                 if not response or response.status >= 400:
@@ -82,7 +95,7 @@ def retrieve(location, day, start=None, end=None):
                     resources[key]['blocks'].append(block)
     merged['courts'] = list(resources.values())
     general = location in ('Travel Town', 'Palisades RC')
-    rows = merged['courts'] if general else normalize(merged, day, start, end or clock(last) if start else None)
+    rows = merged['courts'] if general else normalize(merged, day, start, end)
     for row in rows:
         for block in row['blocks']:
             classes = block.get('classes', '').split()
@@ -93,7 +106,7 @@ def retrieve(location, day, start=None, end=None):
                 begin = block['time'].split(' - ')[0] if general else block['start']
                 block['booking_url'] = search_url(location, day, begin)
     return dict(ok=True, retrieval='live_isolated_chrome', location=location, date=day,
-                start=start, end=end or (clock(last) if start else None),
+                start=start, end=end, daypart=daypart,
                 observed_at=merged['captured_at'], source_url=merged['source_url'],
                 pages_read=len(snapshots), resource_count=len(rows), resources=rows,
                 interpretation='Read raw block classes and tooltip: Book Now = online-bookable; Inquiry Only = staff confirmation; missing blocks = unknown.' if general else 'Normalized court status; check duration and slot boundaries.',
@@ -108,9 +121,10 @@ def main():
     p.add_argument('--start')
     p.add_argument('--end')
     p.add_argument('--sport')
+    p.add_argument('--daypart', choices=DAYPARTS)
     args = p.parse_args()
     try:
-        result = retrieve(args.location, args.date, args.start, args.end)
+        result = retrieve(args.location, args.date, args.start, args.end, args.daypart)
         if args.sport:
             if args.location in ('Travel Town', 'Palisades RC'):
                 raise ValueError('Use resource names, not --sport, for this calendar')
