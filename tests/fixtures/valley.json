@@ -1,0 +1,154 @@
+{
+  "source_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/search.html?InterfaceParameter=Iframe_Live_WebTrac&arwebsearch_buttonsearch=yes&begintime=9%3A00+AM&date=09%2F14%2F2026&location=VNSO+Pay+Tennis&module=FR",
+  "captured_at": "2026-09-11T16:55:00+00:00",
+  "date": "09/14/2026",
+  "summary": "Selected rows from live browser observation; not a complete calendar.",
+  "fixture_note": "Transcribed from public DOM observed 2026-09-11; selected rows, whitespace normalized; capture time approximate. No booking URLs or tokens retained.",
+  "courts": [
+    {
+      "name": "Court 1",
+      "location": "Van Nuys/Sherman Oaks Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/14/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=517089",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": [
+        {
+          "time": "9:00 am - 10:00 am",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "10:00 am - 11:00 am",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "11:00 am - 12:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "5:00 pm - 9:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    },
+    {
+      "name": "Court 10 - Paddle Tennis",
+      "location": "Van Nuys/Sherman Oaks Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/14/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=58455521",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": [
+        {
+          "time": "9:00 am - 10:00 am",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "10:00 am - 11:00 am",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "11:00 am - 12:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "5:00 pm - 6:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "6:00 pm - 7:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "7:00 pm - 9:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    },
+    {
+      "name": "Court 2",
+      "location": "Van Nuys/Sherman Oaks Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/14/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=518083",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": [
+        {
+          "time": "9:00 am - 10:00 am",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "10:00 am - 11:00 am",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "11:00 am - 12:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "5:00 pm - 6:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "6:00 pm - 7:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "7:00 pm - 8:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "8:00 pm - 9:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    },
+    {
+      "name": "Court 4 - Pickleball A",
+      "location": "Van Nuys/Sherman Oaks Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/14/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=418032679",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am. The pickleball net is not provided for the hybrid courts.",
+      "blocks": [
+        {
+          "time": "9:00 am - 11:00 am",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "11:00 am - 12:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "5:00 pm - 6:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "6:00 pm - 9:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    }
+  ]
+}

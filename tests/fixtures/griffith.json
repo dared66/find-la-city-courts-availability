@@ -1,0 +1,144 @@
+{
+  "source_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/search.html?InterfaceParameter=Iframe_Live_WebTrac&arwebsearch_buttonsearch=yes&begintime=8%3A00+AM&date=09%2F13%2F2026&location=Vermont+Canyon+Pay+Tennis&module=FR",
+  "captured_at": "2026-09-11T16:55:00+00:00",
+  "date": "09/13/2026",
+  "summary": "Selected rows from live browser observation; not a complete calendar.",
+  "fixture_note": "Transcribed from public DOM observed 2026-09-11; selected rows, whitespace normalized; capture time approximate. No booking URLs or tokens retained.",
+  "courts": [
+    {
+      "name": "Court 1",
+      "location": "Vermont Canyon Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/13/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=517079",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": [
+        {
+          "time": "8:00 am - 9:00 am",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "9:00 am - 10:00 am",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "10:00 am - 11:00 am",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "11:00 am - 12:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "12:00 pm - 1:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "1:00 pm - 2:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "2:00 pm - 3:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "3:00 pm - 4:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "4:00 pm - 5:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    },
+    {
+      "name": "Court 10",
+      "location": "Vermont Canyon Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/13/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=517850",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": [
+        {
+          "time": "8:00 am - 12:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "12:00 pm - 1:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "1:00 pm - 2:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "2:00 pm - 3:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "3:00 pm - 4:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "4:00 pm - 5:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        }
+      ]
+    },
+    {
+      "name": "Court 11",
+      "location": "Vermont Canyon Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/13/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=517864",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": [
+        {
+          "time": "8:00 am - 12:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "12:00 pm - 1:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "1:00 pm - 2:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "2:00 pm - 3:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "3:00 pm - 4:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "4:00 pm - 5:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Bytecode and runtime caches
+__pycache__/
+*.py[cod]
+*.so

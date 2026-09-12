@@ -1,0 +1,127 @@
+{
+  "verified_at": "2026-09-11",
+  "coverage": "Seed directory, not a complete citywide inventory. Discover additional court facilities from the official catalog.",
+  "facilities": [
+    {
+      "name": "Van Nuys/Sherman Oaks Courts",
+      "area": "Valley",
+      "aliases": [
+        "VNSO",
+        "Van Nuys",
+        "Sherman Oaks"
+      ],
+      "sports": [
+        "tennis",
+        "pickleball",
+        "paddle tennis"
+      ],
+      "webtrac_location": "VNSO Pay Tennis",
+      "url": "https://recreation.parks.lacity.gov/sports/tennis/facility/van-nuys-SO",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Vermont Canyon Courts",
+      "area": "Griffith Park",
+      "aliases": [
+        "Los Feliz"
+      ],
+      "sports": [
+        "tennis"
+      ],
+      "webtrac_location": "Vermont Canyon Pay Tennis",
+      "url": "https://recreation.parks.lacity.gov/sports/tennis/facility/vermont-canyon",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Westchester Courts",
+      "area": "Pacific Westside",
+      "aliases": [
+        "Westchester"
+      ],
+      "sports": [
+        "tennis",
+        "pickleball"
+      ],
+      "webtrac_location": "Westchester Pay Tennis",
+      "url": "https://recreation.parks.lacity.gov/node/994",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Balboa Courts",
+      "area": "Valley Encino",
+      "aliases": [
+        "Balboa"
+      ],
+      "sports": [
+        "tennis"
+      ],
+      "url": "https://recreation.parks.lacity.gov/sports/tennis/facility/balboa",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Cheviot Hills Courts",
+      "area": "Westside",
+      "aliases": [],
+      "sports": [
+        "tennis"
+      ],
+      "url": "https://recreation.parks.lacity.gov/sports/tennis/facility/cheviot-hills",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Poinsettia Courts",
+      "area": "Hollywood Metro",
+      "aliases": [],
+      "sports": [
+        "tennis"
+      ],
+      "url": "https://recreation.parks.lacity.gov/sports/tennis/facility/poinsettia",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Riverside Courts",
+      "area": "Griffith Park",
+      "aliases": [],
+      "sports": [
+        "tennis"
+      ],
+      "url": "https://recreation.parks.lacity.gov/sports/tennis/facility/riverside",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Westwood Pay Tennis Courts",
+      "area": "Westside",
+      "aliases": [],
+      "sports": [
+        "tennis"
+      ],
+      "url": "https://recreation.parks.lacity.gov/node/995",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Westwood Recreation Center",
+      "area": "Westside",
+      "aliases": [],
+      "sports": [
+        "basketball",
+        "tennis",
+        "pickleball",
+        "racquetball"
+      ],
+      "url": "https://recreation.parks.lacity.gov/reccenter/westwood",
+      "contact": "See official facility page"
+    },
+    {
+      "name": "Gilbert W. Lindsay Recreation Center",
+      "area": "South Los Angeles",
+      "aliases": [
+        "South LA"
+      ],
+      "sports": [
+        "basketball"
+      ],
+      "url": "https://recreation.parks.lacity.gov/reccenter/gilbert-w-lindsay",
+      "contact": "See official facility page"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LA City Facility Availability"
+  short_description: "Check covered LA courts, rentals and schedules"
+  default_prompt: "Use $find-la-city-courts-availability to check a covered LA City facility for my date and time, or provide its official website if unsupported."

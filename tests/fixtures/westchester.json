@@ -1,0 +1,88 @@
+{
+  "source_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/search.html?InterfaceParameter=Iframe_Live_WebTrac&arwebsearch_buttonsearch=yes&begintime=5%3A00+PM&date=09%2F15%2F2026&location=Westchester+Pay+Tennis&module=FR",
+  "captured_at": "2026-09-11T16:55:00+00:00",
+  "date": "09/15/2026",
+  "summary": "Selected rows from live browser observation; not a complete calendar.",
+  "fixture_note": "Transcribed from public DOM observed 2026-09-11; selected rows, whitespace normalized; capture time approximate. No booking URLs or tokens retained.",
+  "courts": [
+    {
+      "name": "Court 1",
+      "location": "Westchester Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/15/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=517056",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": [
+        {
+          "time": "5:00 pm - 6:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "6:00 pm - 7:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "7:00 pm - 8:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "8:00 pm - 9:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    },
+    {
+      "name": "Court 3",
+      "location": "Westchester Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/15/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=517488",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": [
+        {
+          "time": "5:00 pm - 6:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "6:00 pm - 9:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    },
+    {
+      "name": "Court 8 - Tennis/Pickleball Hybrid Court",
+      "location": "Westchester Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/15/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=518407",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am. The pickleball net is not provided for the hybrid courts.",
+      "blocks": [
+        {
+          "time": "5:00 pm - 6:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "6:00 pm - 9:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    },
+    {
+      "name": "Westchester Pro Court 2",
+      "location": "Westchester Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/15/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=517395",
+      "rules": "Reserve tennis court for maximum of two hours, one court per household. Reservations opens eight days in advance at 8am.",
+      "blocks": []
+    }
+  ]
+}

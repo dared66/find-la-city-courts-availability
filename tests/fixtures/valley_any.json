@@ -1,0 +1,39 @@
+{
+  "source_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/search.html?InterfaceParameter=Iframe_Live_WebTrac&arwebsearch_buttonsearch=yes&begintime=12%3A00+AM&date=09%2F14%2F2026&location=VNSO+Pay+Tennis&module=FR",
+  "captured_at": "2026-09-11T16:59:02.714Z",
+  "date": "09/14/2026",
+  "summary": "Search ResultsShowing results 1-14 of 14",
+  "fixture_note": "First row of 14 retained from live extractor output for end-to-end replay validation.",
+  "courts": [
+    {
+      "name": "Court 1",
+      "location": "Van Nuys/Sherman Oaks Pay Tennis",
+      "category": "Tennis Court",
+      "date": "09/14/2026",
+      "detail_url": "https://reg.recreation.parks.lacity.gov/web/wbwsc/webtrac.wsc/iteminfo.html?Module=FR&FMID=517089",
+      "rules": "Court 1 Make sure you select the correct reservation date - the default is always the next day! Courts are $10/hour on weekdays until 4:00pm. 4:00pm until closing plus weekends and City holidays are $14/hour. Reserve tennis court for maximum of two hours, one court per household.Rules:*No teaching of any kind is permissible except by authorized concessionaires.*No equipment other than tennis rackets and balls are allowed on the court except by authorized concessionaires.*A maximum of six balls shall be used on any one court except by authorized concessionaires.Reservations opens eight days in advance at 8am.NO REFUNDS GIVEN",
+      "blocks": [
+        {
+          "time": "8:00 am - 10:00 am",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        },
+        {
+          "time": "10:00 am - 11:00 am",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "11:00 am - 12:00 pm",
+          "classes": "button cart-button--state-block success",
+          "tooltip": "Book Now"
+        },
+        {
+          "time": "5:00 pm - 9:00 pm",
+          "classes": "button cart-button--state-block error",
+          "tooltip": "<h2>Unavailable</h2>This Facility Reservation time block is unavailable. Please select another time block."
+        }
+      ]
+    }
+  ]
+}
